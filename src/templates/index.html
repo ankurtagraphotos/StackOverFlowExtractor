@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border = 1>
+         {% for item in result["output"] %}
+            <tr>
+                <th> {{ item["creation_date"] }} </th>
+                <th> <a href={{ item["link"] }}> {{ item["title"] }} </a> </th>
+            </tr>
+         {% endfor %}
+      </table>
+
+</body>
+</html>
