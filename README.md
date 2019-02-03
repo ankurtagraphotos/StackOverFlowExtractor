@@ -16,9 +16,9 @@ which enable question extraction for
   ## Getting the data:
   1. open chrome web browser
   2. goto url https://127.0.0.1:5000/most_scored_questions?post_type=questions&tagged=linux&sort=votes for fetching most scored questions
-  3. goto url https://127.0.0.1:5000/most_recent_questions?post_type=questions&tagged=linux&sort=creation for fetching latest questions
+  3. goto url https://127.0.0.1:5000/most_recent_questions?post_type=questions&tagged=linux&sort=creation for fetching latest questions.
   
-  ##Note, for fetching questions for various tags , input the tag value in the query in step 2 and 3 for example tag values - android , linux, java.
+  ## Note, for fetching questions for various tags , input the tag value in the query in step 2 and 3 for example tag values - android , linux, java.
   
 
 
